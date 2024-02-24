@@ -80,7 +80,6 @@ function App() {
     };
     onresize();
     window.onresize = onresize;
-    window.ondeviceorientation = onresize;
   }, [])
 
   React.useEffect(() => {
